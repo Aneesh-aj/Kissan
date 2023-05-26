@@ -1,0 +1,208 @@
+
+.logo{
+    height: 3rem;
+}
+.a-link{
+    text-decoration: none;
+}
+#buyportion{
+    color: red;
+    font-weight: bold;
+}
+#line{
+    border-bottom: 0.3rem red solid;
+}
+#image{
+    width: fit-content;
+}
+.buyonline{
+    margin-top: 0.3rem;
+    width: 6rem;
+    text-decoration: none;
+    font-size:1rem;
+    font-weight: bold;
+    color: red;
+}
+.head{
+    
+    font-size: rem;
+    text-align: center;
+    font-weight: 900;
+    margin: 1.6rem;
+    color: #555555;
+}
+.sectionimage{
+    
+    background-image: url(image/2329972-our-story---bg.jpg.rendition.1960.1960.jpg);
+}
+.section-image-2{
+    background-image:url(image/29825991-recipes-1---home-page.jpg.rendition.1960.1960.jpg);
+    display: flex;
+    justify-content: center;
+    
+    height: 300px;
+}
+
+.para{
+    margin-top: 2.8rem;
+    width: 65%;
+   padding: 2rem;
+    font-size: 1.2rem;    
+    background-color: #fff;
+    opacity: 0.8;
+
+}
+#button{
+    background-color: red;
+    margin: 3rem;
+}
+.foodimage{
+    width: 12rem;
+}
+.contact-logo-fac{
+    flex-direction: column ;
+    width: 15px;
+}
+.contact-logo-twi{
+    margin-left: 20px;
+    width: 25px; 
+}
+.follow-us{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.contact-info{
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+.u-logo{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.contact-link{
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+    
+}
+#color{
+    background-color: #b9c4cd;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+}
+.footer-2{
+    width: 100%;
+    display: flex;
+}
+
+
+
+
+
+
+@media (max-width:992px){
+    .follow-us{
+        padding-top: 15px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .contact-logo-fac{
+        flex-direction: column ;
+        width: 15px;
+        
+    }
+    .contact-logo-twi{
+        margin-left: 20px;
+        width: 25px; 
+    }
+    .contact-link{
+        text-decoration: none;
+        color: black;
+        margin-top: 5px;
+        margin-right: 5x;
+        font-size: 15px;
+        
+    }
+    .copy-right{
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+}
+
+@media all and (max-width:500px){
+    .buyonline{
+        margin-left: 0px;
+        color: red;
+
+    }
+    .logo{
+        height: 2rem;
+
+    }.footer{
+        width: 68%;
+        display: flex;
+    }
+    .footer-box-1{
+        width: 50%;
+    }
+    .footer-box-2{
+        width: 50%;
+    }
+    
+    .para{
+        margin-top: 1.3rem;
+        font-size:0.6rem ;
+        padding: 0.9rem;
+        
+    }
+    #button{
+        background-color: red;
+        margin: 1.1rem;
+    }
+    .collage{
+        display: flex;
+        width: 80%;
+        
+    }
+    .contact-link{
+        text-decoration: none;
+        color: black;
+        margin-right: 5px;
+        
+    }
+    .contact-logo-fac{
+        flex-direction: column ;
+        width: 15px;
+    }
+    .contact-logo-twi{
+        margin-left: 20px;
+        width: 25px; 
+    }
+    .contact-link{
+        text-decoration: none;
+        color: black;
+        margin-top: 5px;
+        margin-right: 5x;
+        font-size: 10px;
+        
+    }
+    .copy-right{
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+   
+    
+}
+@media (max-width:356px){
+    .contact-info{
+       font-size: 15px;
+    }
+}
+
